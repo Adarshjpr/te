@@ -9,7 +9,7 @@ import lombok.*;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idmuskan;
+    private Long id;
 
     private String name;
 }
